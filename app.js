@@ -56,4 +56,8 @@ document.write(education)
 
 //Question no 9
 
-let moviesName=[]
+let moviesName=[input.value];
+
+let input=document.querySelector('.input-field');
+
+console.log(moviesName);
