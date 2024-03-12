@@ -34,35 +34,31 @@ console.log(mobileNetworks);
 
 //Question no 8
 
-let education=[''];
-education.push('1) SSC ')
-education.push('2) HSC ')
-education.push('3) BCS ')
-education.push('4) BCOM ')
-education.push('5) BS ')
-education.push('6) BCOM ')
-education.push('7) MS ')
-education.push('8) PHD ')
+let education = [""];
+education.push("1) SSC ");
+education.push("2) HSC ");
+education.push("3) BCS ");
+education.push("4) BCOM ");
+education.push("5) BS ");
+education.push("6) BCOM ");
+education.push("7) MS ");
+education.push("8) PHD ");
 
 document.write(education.join("<br>"));
-document.write("<br>")
-
+document.write("<br>");
 
 //Question no 9
 
-let movies=['']
-movies.push('1) Avengers');
-movies.push('2) inside out');
-movies.push('3) Captain America');
-movies.push('4) Fast and ferious');
+let movies = [""];
+movies.push("1) Avengers");
+movies.push("2) inside out");
+movies.push("3) Captain America");
+movies.push("4) Fast and ferious");
 
-
-document.write('The top movies of 2015 Are:' + movies.join("<br>"));
+document.write("The top movies of 2015 Are:" + movies.join("<br>"));
 document.write("<br>");
 document.write("The total movies in the list is " + movies.length);
-
-
-
+document.write("<br>");
 
 //Question no 10
 
@@ -74,12 +70,7 @@ console.log(`Car at first index of Array ` + cars[0]);
 console.log(`last index of the Array ` + cars.indexOf("Fortuner"));
 console.log(`Car at last index of Array ` + cars[3]);
 
-
-
-
 //Question no 11
-
-
 
 let totalScore = 500;
 let student = ["Ashar", "Bilal", "Hamza"];
@@ -89,38 +80,106 @@ let percentage = (obtainedScore / totalScore) * 100;
 console.log(
   "The  score of michale is " +
     obtainedScore[0] +
-    (obtainedScore[0] / totalScore) * 100 + " % "
+    (obtainedScore[0] / totalScore) * 100 +
+    " % "
 );
 
 console.log(
   "The  score of Jonny " +
     obtainedScore[1] +
-    (obtainedScore[1] / totalScore) * 100 + " % "
+    (obtainedScore[1] / totalScore) * 100 +
+    " % "
 );
 
-console.log("The  score of Tony " + obtainedScore[2] + obtainedScore[2]/totalScore*100 + " % ");
-
-
-
-
+console.log(
+  "The  score of Tony " +
+    obtainedScore[2] +
+    (obtainedScore[2] / totalScore) * 100 +
+    " % "
+);
 
 //Question no 12
 
-
-
-
-
-
 //Question no 13
 
-let studentScore=['320' , '230' , '480' , '120'];
+let studentScore = ["320", "230", "480", "120"];
 console.log(studentScore.sort());
-
 
 //Question no 14
 
-let fruits=['apple' , 'banana' , 'orange' , 'strawberry'];
+let fruits = ["apple", "banana", "orange", "strawberry"];
 
 console.log(fruits.sort());
 
+//Question no 15
 
+let cities = ["Karachi", "Islamabad", "Peshawar", "Lahore", "Quetta"];
+
+let selectedCities = ["Islamabad", "Peshawar"];
+
+document.write("Cities List:");
+document.write("<br>");
+document.write(cities);
+
+document.write("<br>");
+
+document.write("Selected cities:");
+document.write("<br>");
+document.write(selectedCities);
+
+//Question no 16
+
+let pet = ["This", "is", "my", "cat"];
+
+console.log(pet.join(" "));
+
+//Question no 17
+
+let compPart = ["Keyboard", "Mouse", "Printer", "Monitor"];
+
+console.log("out:");
+console.log(compPart[0]);
+
+console.log("out:");
+console.log(compPart[1]);
+
+console.log("out:");
+console.log(compPart[2]);
+
+console.log("out:");
+console.log(compPart[3]);
+
+//Question no 18
+
+let compParts = ["Keyboard", "Mouse", "Printer", "Monitor"];
+
+console.log("out:");
+console.log(compPart[3]);
+
+console.log("out:");
+console.log(compPart[2]);
+
+console.log("out:");
+console.log(compPart[1]);
+
+console.log("out:");
+console.log(compPart[0]);
+
+
+//Question no 19
+
+
+
+
+
+
+
+
+//Question no 21
+
+let matrix = [
+  [2 , 8 , 9]
+  [3 , 6 , 9]
+];
+
+console.log(matrix);
