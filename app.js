@@ -34,26 +34,35 @@ console.log(mobileNetworks);
 
 //Question no 8
 
-let education = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"];
+let education=[''];
+education.push('1) SSC ')
+education.push('2) HSC ')
+education.push('3) BCS ')
+education.push('4) BCOM ')
+education.push('5) BS ')
+education.push('6) BCOM ')
+education.push('7) MS ')
+education.push('8) PHD ')
 
-document.write(education);
+document.write(education.join("<br>"));
+document.write("<br>")
+
 
 //Question no 9
 
-// let input=document.querySelector('.input-field');
+let movies=['']
+movies.push('1) Avengers');
+movies.push('2) inside out');
+movies.push('3) Captain America');
+movies.push('4) Fast and ferious');
 
-// function myFunct() {
 
-//     let inputfield=input.value
-//     let greek=[]
+document.write('The top movies of 2015 Are:' + movies.join("<br>"));
+document.write("<br>");
+document.write("The total movies in the list is " + movies.length);
 
-//     for(i=0 ; i<=inputfield ; i++){
 
-//         greek[i]=input.value;
-//         document.write(greek[i]+ '<br>')
-//     }
 
-// }
 
 //Question no 10
 
@@ -80,11 +89,38 @@ let percentage = (obtainedScore / totalScore) * 100;
 console.log(
   "The  score of michale is " +
     obtainedScore[0] +
-    (obtainedScore[0] / totalScore) * 100
+    (obtainedScore[0] / totalScore) * 100 + " % "
 );
+
 console.log(
   "The  score of Jonny " +
     obtainedScore[1] +
-    (obtainedScore[1] / totalScore) * 100
+    (obtainedScore[1] / totalScore) * 100 + " % "
 );
-console.log("The  score of Tony " + obtainedScore[2] + obtainedScore[2]/totalScore*100);
+
+console.log("The  score of Tony " + obtainedScore[2] + obtainedScore[2]/totalScore*100 + " % ");
+
+
+
+
+
+//Question no 12
+
+
+
+
+
+
+//Question no 13
+
+let studentScore=['320' , '230' , '480' , '120'];
+console.log(studentScore.sort());
+
+
+//Question no 14
+
+let fruits=['apple' , 'banana' , 'orange' , 'strawberry'];
+
+console.log(fruits.sort());
+
+
