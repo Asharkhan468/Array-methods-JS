@@ -55,11 +55,7 @@ document.write(education);
 
 // }
 
-
-
 //Question no 10
-
-
 
 let cars = ["Audi", "Ferarri", "Vigo", "Fortuner"];
 
@@ -75,11 +71,20 @@ console.log(`Car at last index of Array ` + cars[3]);
 //Question no 11
 
 
-let totalScore=500;
-let student=['Ashar' ,'Bilal' ,'Hamza'];
-let obtainedScore=[488 , 345 , 443];
 
+let totalScore = 500;
+let student = ["Ashar", "Bilal", "Hamza"];
+let obtainedScore = [Number(488), Number(345), Number(443)];
+let percentage = (obtainedScore / totalScore) * 100;
 
-console.log('The  score of michale');
-console.log('The  score of Jonny ');
-console.log('The  score of Tony ');
+console.log(
+  "The  score of michale is " +
+    obtainedScore[0] +
+    (obtainedScore[0] / totalScore) * 100
+);
+console.log(
+  "The  score of Jonny " +
+    obtainedScore[1] +
+    (obtainedScore[1] / totalScore) * 100
+);
+console.log("The  score of Tony " + obtainedScore[2] + obtainedScore[2]/totalScore*100);
